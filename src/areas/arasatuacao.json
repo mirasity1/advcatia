@@ -8,57 +8,57 @@
     {
       "nome": "Recuperação de Crédito",
       "icon": "fa-file-invoice",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": "Ações executivas - com base em diferentes títulos (letras, livranças, incumprimento no pagamento do crédito hipotecário, contratos de prestação de garantia autónoma à primeira solicitação, documentos particulares com reconhecimento de dívida);Recuperação de crédito através de injunções;Negociação e mediação entre credores e devedores"
     },
     {
       "nome": "Aquisição de Nacionalidade Portuguesa",
       "icon": "fa-passport",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": "Por via do casamento, da união de facto, judeu sefardita, descendência portuguesa"
     },
     {
       "nome": "Direito Penal",
       "icon": "fa-gavel",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": "Assistência ao arguido nas sessões de julgamento;Planeamento estratégico da defesa de crimes;Proposituras de Queixas-crime e Acusações particulares"
     },
     {
       "nome": "Direito Imobiliário",
       "icon": "fa-home",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": "Análise de documentos relativos a imóveis;Representação em escrituras de compra e venda de imóveis"
     },
     {
       "nome": "Direito da Família e das Sucessões",
       "icon": "fa-heart",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": "Regulação das responsabilidades parentais;Divórcios por mútuo consentimento e divórcio litigioso;Heranças e partilhas"
     },
     {
       "nome": "Direito Comercial",
       "icon": "fa-building",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": "Criação de empresas;Constituição e dissolução de sociedades comerciais"
     },
     {
       "nome": "Insolvências",
       "icon": "fa-file-invoice",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": "Apresentação à insolvência;Acompanhamento do processo de insolvência;Reestruturações;Negociação com os credores"
     },
     {
       "nome": "Condomínios",
       "icon": "fa-building",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": "Cartas de interpelação para condóminos ou entidades públicas;Ações executivas tendo como titulo executivo as Atas das assembleias de condóminos;Representação e acompanhamento de assembleias de condomínio"
     },
     {
       "nome": "Autenticação de Documentos",
       "icon": "fa-file-signature",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": "Procurações;Reconhecimento presencial de assinaturas;Autenticação de documentos"
     },
     {
       "nome": "Assessoria a Estrangeiros",
       "icon": "fa-user-friends",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": ""
     },
     {
       "nome": "Pareceres Jurídicos",
       "icon": "fa-file-alt",
-      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+      "description": ""
     }
   ]
 }

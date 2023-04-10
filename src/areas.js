@@ -21,15 +21,17 @@ import { useSpring, animated } from "@react-spring/web";
 import "./css/styles.css";
 
 function description(description) {
-  // every new line add - at the begining, new lines are separeted by ";"
-  const lines = description.split(";").map((line) => `- ${line.trim()}`);
-  return (
-    <ul>
-      {lines.map((line) => (
-        <li key={line}>{line}</li>
-      ))}
-    </ul>
-  );
+  if (description !== "") {
+    // every new line add - at the begining, new lines are separeted by ";"
+    const lines = description.split(";").map((line) => `- ${line.trim()}`);
+    return (
+      <ul>
+        {lines.map((line) => (
+          <li key={line}>{line}</li>
+        ))}
+      </ul>
+    );
+  }
 }
 
 const AreasAtuacao = () => {
@@ -59,7 +61,7 @@ const AreasAtuacao = () => {
             {areas["Áreas de atuação"].map((area) => (
               <div
                 key={area.nome}
-                className="flex flex-col items-center justify-center p-4 bg-gray-100 rounded-lg shadow-lg"
+                className="flex flex-col items-center justify-center p-4"
                 onClick={handleClick}
               >
                 <div key={area.nome}>
