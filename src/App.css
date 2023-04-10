@@ -1,3 +1,29 @@
 .App {
   text-align: center;
 }
+.bg-image {
+  background-image: url("./images/JusticeAndLaw.jpg");
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 0px -100px;
+  height: 65vh;
+  background-repeat: "no-repeat";
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-image {
+    height: 50vh;
+    background-position: center;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}

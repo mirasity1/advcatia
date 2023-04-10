@@ -1,0 +1,64 @@
+{
+  "Áreas de atuação": [
+    {
+      "nome": "Direito Civil",
+      "icon": "fa-balance-scale",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Recuperação de Crédito",
+      "icon": "fa-file-invoice",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Aquisição de Nacionalidade Portuguesa",
+      "icon": "fa-passport",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Direito Penal",
+      "icon": "fa-gavel",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Direito Imobiliário",
+      "icon": "fa-home",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Direito da Família e das Sucessões",
+      "icon": "fa-heart",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Direito Comercial",
+      "icon": "fa-building",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Insolvências",
+      "icon": "fa-file-invoice",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Condomínios",
+      "icon": "fa-building",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Autenticação de Documentos",
+      "icon": "fa-file-signature",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Assessoria a Estrangeiros",
+      "icon": "fa-user-friends",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    },
+    {
+      "nome": "Pareceres Jurídicos",
+      "icon": "fa-file-alt",
+      "description": "Elaboração de contratos;Ações de responsabilidade contratual;Ações de despejo;Ações de divisão de coisa comum;Providências cautelares;Reconhecimento de sentenças estrangeiras;Ações de reconhecimento da união de facto; Ações de Maior Acompanhado (anteriormente designado por Interdição/Inabilitação);Inventários"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.child {
+  padding: 16px;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.slide-out {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.slide-in {
+  transform: translateY(0);
+  opacity: 1;
+}

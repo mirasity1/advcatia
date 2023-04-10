@@ -85,34 +85,34 @@ function Contatos() {
     <>
       <Outlet />
 
-      <div className="flex w-full">
-        <div className="w-1/2">
+      <div className="flex flex-col w-full lg:flex-row">
+        <div className="lg:w-1/2">
           <img
             src={PilarDaLei}
             alt="Imagem de um Pilar de mármore"
             className="object-cover w-full h-full"
           />
         </div>
-        <div className="w-1/2 items-center justify-center">
-          <h2 className="text-center text-4xl advocate mt-24 mb-6 font-thin">
+        <div className="flex flex-col items-center justify-center lg:w-1/2">
+          <h2 className="mt-8 mb-6 text-4xl font-thin text-center lg:mt-24 advocate">
             Contatos
           </h2>
-          <p className=" text-center justify-center">
+          <p className="justify-center text-center ">
             <a href="Mailto:catiagomes-53337L@adv.oa.pt">
               catiagomes-53337L@adv.oa.pt
             </a>
           </p>
-          <p className="text-center justify-center ">
+          <p className="justify-center text-center ">
             <a href="tel:+351912078431">00351 936 551 231</a>
           </p>
-          <div className="rounded-lg bg-gray-200 p-8 opacity-80 lg:col-span-3 lg:p-12">
+          <div className="p-8 bg-gray-200 rounded-lg opacity-80 lg:col-span-3 lg:p-12 md:w-full">
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label className="sr-only" htmlFor="name">
                   Nome
                 </label>
                 <input
-                  className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                  className="w-full p-3 text-sm border-gray-200 rounded-lg"
                   placeholder="Insira o seu nome"
                   type="text"
                   id="name"
@@ -127,7 +127,7 @@ function Contatos() {
                     Email
                   </label>
                   <input
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                    className="w-full p-3 text-sm border-gray-200 rounded-lg"
                     placeholder="Insira o seu email"
                     type="email"
                     id="email"
@@ -141,7 +141,7 @@ function Contatos() {
                     Telefone
                   </label>
                   <input
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                    className="w-full p-3 text-sm border-gray-200 rounded-lg"
                     placeholder="Insira o seu número de telefone"
                     type="tel"
                     id="phone"
@@ -155,7 +155,7 @@ function Contatos() {
                   Assunto
                 </label>
                 <input
-                  className="w-2/3 mt-6 rounded-lg border-gray-200 p-3 text-sm"
+                  className="w-full p-3 mt-6 text-sm border-gray-200 rounded-lg"
                   placeholder="Assunto"
                   type="text"
                   id="subject"
@@ -170,7 +170,7 @@ function Contatos() {
                 </label>
 
                 <textarea
-                  className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                  className="w-full p-3 text-sm border-gray-200 rounded-lg"
                   placeholder="Menssagem"
                   rows="8"
                   id="message"
@@ -182,7 +182,7 @@ function Contatos() {
               <div className="mt-4">
                 <button
                   type="submit"
-                  className="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto"
+                  className="inline-block w-full px-5 py-3 font-medium text-white bg-black rounded-lg sm:w-auto"
                 >
                   Enviar Email
                 </button>
@@ -192,7 +192,7 @@ function Contatos() {
           {isSubmitted && (
             // modal to pop up when message is sent
             <div className="fixed inset-0 z-10 overflow-y-auto">
-              <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+              <div className="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
                 <div
                   className="fixed inset-0 transition-opacity"
                   aria-hidden="true"
@@ -206,16 +206,16 @@ function Contatos() {
                   &#8203;
                 </span>
                 <div
-                  className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+                  className="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
                   role="dialog"
                   aria-modal="true"
                   aria-labelledby="modal-headline"
                 >
-                  <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                  <div className="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
                     <div className="sm:flex sm:items-start">
-                      <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 sm:mx-0 sm:h-10 sm:w-10">
+                      <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto bg-green-100 rounded-full sm:mx-0 sm:h-10 sm:w-10">
                         <svg
-                          className="h-6 w-6 text-green-600"
+                          className="w-6 h-6 text-green-600"
                           stroke="currentColor"
                           fill="none"
                           viewBox="0 0 24 24"
@@ -230,7 +230,7 @@ function Contatos() {
                       </div>
                       <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                         <h3
-                          className="text-lg leading-6 font-medium text-gray-900"
+                          className="text-lg font-medium leading-6 text-gray-900"
                           id="modal-headline"
                         >
                           Mensagem enviada com sucesso!
@@ -244,12 +244,12 @@ function Contatos() {
                     </div>
                   </div>
 
-                  <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+                  <div className="px-4 py-3 bg-gray-50 sm:px-6 sm:flex sm:flex-row-reverse">
                     <span className="flex w-full rounded-md shadow-sm sm:ml-3 sm:w-auto">
                       <button
                         onClick={() => setIsSubmitted(false)}
                         type="button"
-                        className="inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 bg-black text-base leading-6 font-medium text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray transition ease-in-out duration-150 sm:text-sm sm:leading-5"
+                        className="inline-flex justify-center w-full px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-black border border-transparent rounded-md shadow-sm hover:bg-gray-700 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray sm:text-sm sm:leading-5"
                       >
                         Fechar
                       </button>

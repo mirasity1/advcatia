@@ -29,3 +29,22 @@ body {
 .advocate {
   font-family: "Advocate", sans-serif;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  border: 1px solid #cacaca;
+  box-shadow: inset 0 0 6px rgb(231, 231, 231);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgb(59, 65, 77);
+}
+
+.advocateSlim {
+  font-family: "AdvocateSlim", sans-serif;
+  font-weight: 400;
+}
+/* Path: src\components\Header.css */

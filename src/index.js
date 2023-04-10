@@ -6,6 +6,35 @@ import App from "./App";
 import ErrorPage from "./error-page";
 import Header from "./reusable/header";
 import Contatos from "./Contatos";
+import Areas from "./areas";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faGavel,
+  faHandshake,
+  faPassport,
+  faBalanceScale,
+  faHome,
+  faHeart,
+  faBuilding,
+  faFileInvoice,
+  faFileSignature,
+  faUserFriends,
+  faFileAlt,
+} from "@fortawesome/free-solid-svg-icons";
+
+library.add(
+  faGavel,
+  faHandshake,
+  faPassport,
+  faBalanceScale,
+  faHome,
+  faHeart,
+  faBuilding,
+  faFileInvoice,
+  faFileSignature,
+  faUserFriends,
+  faFileAlt
+);
 
 const router = createBrowserRouter([
   {
@@ -21,9 +50,9 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/areas",
-    element: <App />,
-    children: [{ path: "/areas", element: <Header /> }],
+    path: "/areas-de-atuacao",
+    element: <Areas />,
+    children: [{ path: "/areas-de-atuacao", element: <Header /> }],
     errorElement: <ErrorPage />,
   },
 ]);
