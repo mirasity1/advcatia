@@ -1,0 +1,31 @@
+/* Import the Tailwind base styles */
+@import "tailwindcss/base";
+
+/* Set the background color for all pages */
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+/* Import the Tailwind utility classes */
+@import "tailwindcss/utilities";
+
+/* import font advocate.woff2
+ */
+
+@font-face {
+  font-family: "Advocate";
+  src: url("./fonts/PlayfairDisplay.ttf") format("truetype");
+  /* and italic */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "AdvocateParagraph";
+  src: url("./fonts/AdvocateParagraph.woff2") format("woff2");
+}
+* {
+  font-family: "AdvocateParagraph", sans-serif;
+}
+.advocate {
+  font-family: "Advocate", sans-serif;
+}
