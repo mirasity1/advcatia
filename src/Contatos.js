@@ -98,12 +98,12 @@ function Contatos() {
             Contatos
           </h2>
           <p className="justify-center text-center ">
-            <a href="Mailto:catiagomes-53337L@adv.oa.pt">
-              catiagomes-53337L@adv.oa.pt
+            <a href="Mailto:email.advogada@email.com">
+              email.advogada@email.com
             </a>
           </p>
           <p className="justify-center text-center ">
-            <a href="tel:+351912078431">00351 936 551 231</a>
+            <a href="tel:+35900800000">00351 900 800 000</a>
           </p>
           <div className="p-8 bg-gray-200 rounded-lg opacity-80 lg:col-span-3 lg:p-12 md:w-full">
             <form onSubmit={handleSubmit} className="space-y-4">
