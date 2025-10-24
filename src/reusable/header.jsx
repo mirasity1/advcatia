@@ -30,7 +30,7 @@ const Header = () => {
         </div>
         <div className="flex-shrink-0 mt-4">
           <a
-            href="https://www.linkedin.com/in/c%C3%A1tia-teixeira-gomes-a08743145/"
+            href="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
