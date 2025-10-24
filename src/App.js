@@ -12,7 +12,7 @@ function App() {
       <div className="items-center justify-center bg-image">
         <div className="text-center">
           <h1 className="text-white text-7xl advocate">
-            Cátia Teixeira <br /> Gomes
+            ADVOGADA
           </h1>
           <p className="mt-12 text-lg text-white advocate">Advogada</p>
         </div>
