@@ -4,7 +4,7 @@ export default function Footer() {
     <div className="bg-gray-900 opacity-80 text-white text-justify p-4 flex w-full">
       {/* no centro da div um texto justificado com 3 linhas */}
       <div className="w-2/3 m-auto mt-4 advocate ">
-        <h1 className="text-center text-2xl advocate ">Cátia Teixeira Gomes</h1>
+        <h1 className="text-center text-2xl advocate ">Advogada</h1>
         <p className=" text-center justify-center text-xl mb-6">Advogada</p>
         <p className=" text-center justify-center">
           <a href="Mailto:email.advogada@email.com">
