@@ -7,16 +7,16 @@ export default function Footer() {
         <h1 className="text-center text-2xl advocate ">Cátia Teixeira Gomes</h1>
         <p className=" text-center justify-center text-xl mb-6">Advogada</p>
         <p className=" text-center justify-center">
-          <a href="Mailto:catiagomes-53337L@adv.oa.pt">
-            catiagomes-53337L@adv.oa.pt
+          <a href="Mailto:email.advogada@email.com">
+            email.advogada@email.com
           </a>
         </p>
         <p className="text-center justify-center ">
-          <a href="tel:+351912078431">00351 936 551 231</a>
+          <a href="tel:+351930800900">00351 930 800 9000</a>
         </p>
 
         <p className="text-center justify-center mt-6 mb-6 text-sm">
-          ©2023 por Cátia Teixeira Gomes.
+          ©2023 por Filipe Braga.
         </p>
       </div>
     </div>
